@@ -25,7 +25,7 @@ Saya sedang belajar cyber security secara mandiri, fokus di bidang penetration t
 *(akan terus diupdate seiring progress belajar)*
 
 ## 📚 Notes
-Kumpulan catatan belajar saya ada di folder [`/catatan`](./catatan)
+Kumpulan catatan belajar saya ada di folder [`/catatan`](./note)
 
 ## 📮 Contact
 - LinkedIn: https://www.linkedin.com/in/fathon-r-97636842a
