@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Fathon K.R
+# 👋 Hi, I'm Faton K.R
 
 🔐 Aspiring Cybersecurity Professional | Learning Offensive Security
 
