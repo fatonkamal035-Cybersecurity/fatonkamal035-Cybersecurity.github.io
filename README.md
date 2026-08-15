@@ -19,8 +19,8 @@ Saya sedang belajar cyber security secara mandiri, fokus di bidang penetration t
 ## 📝 CTF Write-ups
 | Room | Difficulty | Topic | Link |
 |------|-----------|-------|------|
-| [Nama Room] | Easy | Web Exploitation | [link write-up] |
-| [Nama Room] | Easy | Linux Basics | [link write-up] |
+| Web Fundamentals | Easy | Web Exploitation | [Link](./notes/web-fundamentals.md) |
+| Linux Fundamentals Part 1 | Easy | Linux Basics | [Link](./notes/linux-fundamentals-part-1.md) |
 
 *(akan terus diupdate seiring progress belajar)*
 
