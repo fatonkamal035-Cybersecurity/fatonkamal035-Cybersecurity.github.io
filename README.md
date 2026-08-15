@@ -19,13 +19,13 @@ Saya sedang belajar cyber security secara mandiri, fokus di bidang penetration t
 ## 📝 CTF Write-ups
 | Room | Difficulty | Topic | Link |
 |------|-----------|-------|------|
-| Web Fundamentals | Easy | Web Exploitation | [Link](./catatan/web-fundamentals.md) |
-| Linux Fundamentals Part 1 | Easy | Linux Basics | [Link](./catatan/linux-fundamentals-part-1.md) |
+| Web Fundamentals | Easy | Web Exploitation | [Link](./notes/web-fundamentals.md) |
+| Linux Fundamentals Part 1 | Easy | Linux Basics | [Link](./notes/linux-fundamentals-part-1.md) |
 
 *(akan terus diupdate seiring progress belajar)*
 
 ## 📚 Notes
-Kumpulan catatan belajar saya ada di folder [`/catatan`](./catatan)
+Kumpulan catatan belajar saya ada di folder [`/notes`](./notes)
 
 ## 📮 Contact
 - LinkedIn: https://www.linkedin.com/in/fathon-r-97636842a
