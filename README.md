@@ -65,4 +65,4 @@ Room lain yang sudah diselesaikan (menyusul ditulis write-up-nya): Karier di Bid
 
 ---
 
-*Dibuat dengan semangat belajar. Ditenagai oleh Kali Linux.*
+*Di dukung oleh Kali Linux.*
