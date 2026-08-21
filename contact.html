@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Fathon Kamal</title>
+<meta name="description" content="Hubungi Fathon Kamal — email, Discord, GitHub, LinkedIn, TryHackMe, dan Hack The Box.">
+<meta property="og:title" content="Establish Connection — Fathon Kamal">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><img class="brand-logo" src="logo.png" alt="Logo"><span class="glitch" data-text="fatonkamal_">fatonkamal_</span><span class="alias"></span></a>
+    <nav class="navlinks">
+      <a href="index.html" data-id="Home" data-en="Home">Home</a>
+      <a href="about.html" data-id="About" data-en="About">About</a>
+      <a href="skills.html" data-id="Skills" data-en="Skills">Skills</a>
+      <a href="tools.html" data-id="Tools" data-en="Tools">Tools</a>
+      <a href="projects.html" data-id="Projects" data-en="Projects">Projects</a>
+      <a href="ctf.html">CTF</a>
+      <a href="certifications.html" data-id="Certifications" data-en="Certifications">Certifications</a>
+      <a href="contact.html" class="active" data-id="Contact" data-en="Contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a class="nav-icon-github" href="#" aria-label="GitHub" target="_blank" rel="noopener"></a>
+      <a class="nav-icon-linkedin" href="#" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
+      <div class="lang-switch" role="group" aria-label="Ganti bahasa">
+        <button class="lang-opt active" data-lang="id" type="button">ID</button>
+        <button class="lang-opt" data-lang="en" type="button">EN</button>
+      </div>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html" data-id="Home" data-en="Home">Home</a>
+    <a href="about.html" data-id="About" data-en="About">About</a>
+    <a href="skills.html" data-id="Skills" data-en="Skills">Skills</a>
+    <a href="tools.html" data-id="Tools" data-en="Tools">Tools</a>
+    <a href="projects.html" data-id="Projects" data-en="Projects">Projects</a>
+    <a href="ctf.html">CTF</a>
+    <a href="certifications.html" data-id="Certifications" data-en="Certifications">Certifications</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="wrap">
+    <div class="file-no">FILE NO. 008 · ESTABLISH CONNECTION</div>
+    <h1><span class="prompt">&gt;</span> Contact</h1>
+    <p data-id="Ikutin progres belajar atau connect langsung lewat salah satu link berikut." data-en="Follow the learning progress or connect directly through any of the links below.">Ikutin progres belajar atau connect langsung lewat salah satu link berikut.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-id="Digital Footprint" data-en="Digital Footprint">Digital Footprint</div>
+      <h2 data-id="Find Me Online" data-en="Find Me Online">Find Me Online</h2>
+    </div>
+    <div class="connect-grid reveal" id="connectGrid"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-id="Pesan" data-en="Message">Pesan</div>
+      <h2 data-id="Kirim Pesan Langsung" data-en="Send a Direct Message">Kirim Pesan Langsung</h2>
+      <p data-id="Website ini statis (tanpa server), jadi form ini akan membuka aplikasi email kamu dengan pesan yang sudah terisi — bukan mengirim langsung dari sini." data-en="This site is static (no server), so this form opens your email app with the message pre-filled — it doesn't send directly from here.">Website ini statis (tanpa server), jadi form ini akan membuka aplikasi email kamu dengan pesan yang sudah terisi — bukan mengirim langsung dari sini.</p>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="cf-name" data-id="Nama" data-en="Name">Nama</label>
+        <input type="text" id="cf-name" name="name" required>
+        <span class="form-error" data-id="Nama wajib diisi." data-en="Name is required.">Nama wajib diisi.</span>
+      </div>
+      <div class="form-row">
+        <label for="cf-email" data-id="Email" data-en="Email">Email</label>
+        <input type="email" id="cf-email" name="email" required>
+        <span class="form-error" data-id="Masukkan alamat email yang valid." data-en="Enter a valid email address.">Masukkan alamat email yang valid.</span>
+      </div>
+      <div class="form-row">
+        <label for="cf-message" data-id="Pesan" data-en="Message">Pesan</label>
+        <textarea id="cf-message" name="message" required></textarea>
+        <span class="form-error" data-id="Pesan wajib diisi." data-en="Message is required.">Pesan wajib diisi.</span>
+      </div>
+      <button type="submit" class="btn primary" data-id="Kirim Pesan" data-en="Send Message">Kirim Pesan</button>
+      <p class="form-note" data-id="Tidak ada data yang disimpan di server — form ini hanya menyusun email lewat aplikasi email kamu sendiri." data-en="No data is stored on any server — this form only composes an email through your own email app.">Tidak ada data yang disimpan di server — form ini hanya menyusun email lewat aplikasi email kamu sendiri.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-left">
+      <span style="color:var(--ink);font-weight:600;">Fathon Kamal</span>
+      <span data-id="Portofolio Cybersecurity" data-en="Cybersecurity Portfolio">Portofolio Cybersecurity</span>
+    </div>
+    <nav class="footer-nav">
+      <a href="index.html" data-id="Home" data-en="Home">Home</a>
+      <a href="about.html" data-id="About" data-en="About">About</a>
+      <a href="ctf.html">CTF</a>
+      <a href="contact.html" data-id="Contact" data-en="Contact">Contact</a>
+    </nav>
+    <div id="footerSocials" style="display:flex;gap:10px;"></div>
+  </div>
+  <div class="wrap" style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);">
+    <span>© 2026 Fathon Kamal — <span data-id="dibangun dengan rasa ingin tahu, kode & keamanan." data-en="built with curiosity, code &amp; security.">dibangun dengan rasa ingin tahu, kode &amp; keamanan.</span></span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
